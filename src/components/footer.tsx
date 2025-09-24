@@ -1,5 +1,7 @@
 'use client';
 
+import Link from "next/link";
+
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -100,13 +102,13 @@ export const Footer = () => {
             <ul className="space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.name}>
-                  <a
+                  <Link
                     href={link.href}
                     className="text-gray-400 hover:text-white transition-colors duration-200 flex items-center group"
                   >
                     <span className="w-1 h-1 bg-blue-500 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></span>
                     {link.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
