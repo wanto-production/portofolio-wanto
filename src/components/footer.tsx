@@ -179,7 +179,7 @@ export const Footer = () => {
             </a>
             <div className="flex items-center space-x-1 text-gray-400">
               <span>Built with</span>
-              <span className="text-blue-400 font-medium">Qwik</span>
+              <span className="text-blue-400 font-medium">NextJs</span>
             </div>
           </div>
         </div>
