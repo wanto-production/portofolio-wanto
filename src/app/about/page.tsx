@@ -31,6 +31,7 @@ export default function Page() {
               <Image
                 src={image}
                 alt="Profile"
+                priority
                 className="h-[150px] w-[150px] rounded-full object-cover shadow-2xl border-4 border-gray-700/50"
               />
             </GlareHover>

@@ -40,6 +40,7 @@ export default function HomePage() {
           <div className="absolute inset-0 flex items-center justify-center">
             <Image
               src={image}
+              priority
               alt="Profile"
               className="h-[130px] w-[130px] rounded-full object-cover shadow-lg"
             />
